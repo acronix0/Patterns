@@ -27,6 +27,19 @@ namespace Patterns.Transports
             return base.CalculateFuelConsumption(distance);
         }
 
+        public override void Display()
+        {
+            throw new NotImplementedException();
+        }
 
+        public override void Add(Transport transport)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Remove(Transport transport)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

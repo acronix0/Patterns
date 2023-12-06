@@ -1,6 +1,8 @@
 ﻿using Patterns.Engines;
 using System.Collections;
+using System.ComponentModel;
 using System.Threading;
+using System.Xml.Linq;
 
 namespace Patterns.Transports
 {
@@ -61,5 +63,9 @@ namespace Patterns.Transports
         {
             return 0;
         }
+        public abstract void Add(Transport transport);
+        public abstract void Remove(Transport transport);
+
+
     }
 }
