@@ -14,7 +14,17 @@ namespace Patterns.AbstractTransports
         {
         }
 
+        public override void Add(Transport transport)
+        {
+            throw new NotImplementedException();
+        }
+
         public override Transport Clone()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Remove(Transport transport)
         {
             throw new NotImplementedException();
         }
